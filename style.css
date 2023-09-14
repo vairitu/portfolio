@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+}
+
+.container {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.theme-btn {
+  padding: 14px 38px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  background-color: #715bd9;
+  background-image: linear-gradient(
+    193deg,
+    #9989fa 0%,
+    rgba(131, 110, 230, 0.008) 100%
+  );
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+
+.logo-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-button img {
+  width: 50px;
+  height: 40px;
+}
+
+.logo-button .theme-btn {
+  color: #836ee6;
+  border: solid 1px rgba(131, 110, 230, 0.141);
+  background-color: transparent;
+  background-image: none;
+}
+
+.elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.elements h6 {
+  text-transform: uppercase;
+  color: #836ee6;
+}
+
+.elements h1 {
+  text-transform: uppercase;
+  color: black;
+}
+
+.elements p {
+  color: #7284a6;
+  text-align: center;
+}
+.line {
+  height: 10px;
+}
+.line {
+  width: 37px;
+  height: 8px;
+  background-color: #8672e9;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about p {
+  color: #7284a6;
+  width: 60%;
+}
+
+.about img {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+}
+
+.sign {
+  font-family: "Rock Salt", cursive;
+  color: #8672e9;
+}
+.about-elements {
+  display: flex;
+  /* align-items: center;
+  justify-content: space-between; */
+}
+.about-elements img {
+  height: 30px;
+  width: 20px;
+}
+.about-text i {
+  font-size: 30px;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.fa-mobile{
+  color: yellow;
+}
+
+.fa-bell {
+  color: blue;
+}
