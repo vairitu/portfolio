@@ -138,3 +138,106 @@ body {
 .fa-face-meh{
   color: brown;
 }
+.projects{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+.projects p{
+ width: 565px;
+ color: #7284A6;
+}
+.project-logo{
+  display: flex;
+  justify-content: space-between;
+}
+.project-logo .left{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.project-logo .left p{
+  width: 415px;
+  color: #7284A6;
+}
+.project-logo .right{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.project-logo .right p{
+  width:415px;
+  color: #7284A6;
+}
+.expect-elements{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.expect-elements p{
+  width:67%;
+  color: #7284A6;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+.icon-A i{
+  color: rgb(223, 23, 56);
+}
+.icon-A{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.icon-A p{
+  line-height: 2;
+  color: #7284A6;
+}
+.icon-A h3{
+  color: #303D59;;
+}
+.pricing{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;}
+  .pricing p{
+    width: 63%;
+    line-height: 2;
+    color:#7284A6;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 20px;
+  }
+  .s-500{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    padding:40px;
+    gap: 90px;
+    line-height: 2;
+    color: #7284A6;
+  }
+  .s-elements{
+    display: flex;
+    line-height: 2;
+
+  }
+  
+  
+
+  .s-elements i{
+   font-size: 2rem;
+  }
+
+  
+ 
+
+
