@@ -83,32 +83,34 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+ .about .left{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
 .about p {
   color: #7284a6;
   width: 60%;
 }
 
-.about img {
+.about .right img {
   width: auto;
-  height: 300px;
+  height: 350px;
   object-fit: cover;
 }
 
-.sign {
-  font-family: "Rock Salt", cursive;
+.about .left .sign {
+  font-family: 'Rock Salt', cursive;
+    font-size: 1.125em;
+    line-height: 1.25;
+    font-weight: 400;
   color: #8672e9;
 }
-.about-elements {
+
+.card-A{
   display: flex;
-  /* align-items: center;
-  justify-content: space-between; */
-}
-.about-elements img {
-  height: 30px;
-  width: 20px;
-}
-.about-text i {
-  font-size: 30px;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .fa-heart {
@@ -121,4 +123,18 @@ body {
 
 .fa-bell {
   color: blue;
+}
+.card-B{ 
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.fa-face-rolling-eyes{
+  color: orangered;
+}
+.fa-face-smile{
+  color: green;
+}
+.fa-face-meh{
+  color: brown;
 }
